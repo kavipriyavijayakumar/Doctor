@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doctor_appointment"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.doctor_appointment.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.doctor_appointment.page1"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.doctor_appointment.page2"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.doctor_appointment.page3"
+            android:label="@string/app_name" >
+            </activity>
+        <activity 
+             android:name="com.example.doctor_appointment.page4"
+            android:label="@string/app_name" >
+            </activity>
+            <activity 
+                 android:name="com.example.doctor_appointment.page5"
+            android:label="@string/app_name" >
+            </activity>
+             <activity 
+                 android:name="com.example.doctor_appointment.page6"
+            android:label="@string/app_name" >
+           </activity>
+             <activity 
+                 android:name="com.example.doctor_appointment.page7"
+            android:label="@string/app_name" >
+           </activity>
+             <activity 
+                 android:name="com.example.doctor_appointment.page8"
+            android:label="@string/app_name" >
+           </activity>
+            <activity 
+                 android:name="com.example.doctor_appointment.page9"
+            android:label="@string/app_name" >
+           </activity>
+            <activity 
+                 android:name="com.example.doctor_appointment.page10"
+            android:label="@string/app_name" >
+           </activity>
+            <activity 
+                 android:name="com.example.doctor_appointment.page11"
+            android:label="@string/app_name" >
+           </activity>
+            <activity 
+                 android:name="com.example.doctor_appointment.page12"
+            android:label="@string/app_name" >
+           </activity>
+            <activity 
+                 android:name="com.example.doctor_appointment.page13"
+            android:label="@string/app_name" >
+           </activity>
+            <activity 
+                 android:name="com.example.doctor_appointment.page14"
+            android:label="@string/app_name" >
+           </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Doctor_appointment</string>
+    <string name="action_settings">Settings</string>
+   
+    
+<string-array name="specialist_array">
+<item>Allergist</item>
+<item>Cardiologist</item>
+<item>Dermatologist</item>
+<item>Nephrologist</item>
+<item>Neurologist </item>
+<item>Gynecologist </item>
+<item>Pediatrician</item>
+<item>Urologist</item>
+</string-array>
+</resources>
+
